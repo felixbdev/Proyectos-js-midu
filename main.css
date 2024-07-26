@@ -1,0 +1,58 @@
+*{
+    margin: 0px;
+    padding: 0px;
+
+}
+
+.telefono{
+    background-image: url(./iphone.webp);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    border: 3px solid red;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+
+.logoTinder{
+
+    width: 200px;
+    margin-top: 10px;
+    padding: 5px;
+
+}
+
+.logoTinder img{
+    margin-top: 8px;
+    width: 35px;
+    height: 35px;
+}
+
+.cardPersonas{
+    height: 350px;
+    width: 240px;
+    border-radius: 2px ;
+}
+
+.cardPersonas img{
+    width: 100%;
+    height: 100%;
+    border-radius: 12px;
+}
+
+.botones{
+    width: 200px;
+    margin-bottom: 20px;
+    border: 2px solid red\
+    ;
+}
+
+.botones img{
+    height: 100%;
+    width: 100%;
+}
